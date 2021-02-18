@@ -1,9 +1,8 @@
 import React from 'react'
 
-import { datos } from '../utils/Db'
 import { CardView } from './CardView'
 
-export const CardContainer = () => {
+export const CardContainer = ({datos}) => {
 
     const handleEdit = () => {
         console.log('EDIT')
